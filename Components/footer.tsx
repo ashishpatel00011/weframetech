@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import logo from "./logo.png"; // Adjust the path as per your folder structure
 import Image from 'next/image'; // Optimized image handling
 
@@ -64,13 +66,13 @@ const Footer = () => {
                         <h5 className="font-bold text-lg">NOUS SUIVRE</h5>
                         <div className="flex space-x-4 justify-center lg:justify-start">
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                                <FaTwitter className="text-gray-700 hover:text-teal-500 text-xl" />
+                                <TwitterIcon className="text-gray-700 hover:text-teal-500 text-xl" />
                             </a>
                             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                                <FaInstagram className="text-gray-700 hover:text-teal-500 text-xl" />
+                                <InstagramIcon className="text-gray-700 hover:text-teal-500 text-xl" />
                             </a>
                             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedin className="text-gray-700 hover:text-teal-500 text-xl" />
+                                <LinkedInIcon className="text-gray-700 hover:text-teal-500 text-xl" />
                             </a>
                         </div>
                     </div>

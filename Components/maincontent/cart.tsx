@@ -5,7 +5,6 @@ import Link from 'next/link';
 import FavoriteIcon from '@mui/icons-material/FavoriteBorder';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { useRef } from 'react';
 
 const TableCard = () => {
     return (

@@ -1,11 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import item from "./item1.png";
 import table from "./table.png";
+import AddIcon from '@mui/icons-material/Add';
 import FavoriteIcon from '@mui/icons-material/FavoriteBorder';
 import AutoFixNormalIcon from '@mui/icons-material/AutoFixNormal';
 import DoDisturbIcon from '@mui/icons-material/DoDisturb';
@@ -153,13 +152,13 @@ const Content = () => {
                     <div className="1 bg-pink-50 flex justify-between p-2">
                         <h1>Livraisons</h1>
                         <button className="flex items-center justify-center w-10 h-10 text-black">
-                            <FontAwesomeIcon icon={faPlus} className="h-4 w-4" />
+                            <AddIcon className="h-4 w-4" />
                         </button>
                     </div>
                     <div className="2 bg-pink-50 flex justify-between p-2">
                         <h1>Questions</h1>
                         <button className="flex items-center justify-center w-10 h-10 text-black">
-                            <FontAwesomeIcon icon={faPlus} className="h-4 w-4" />
+                            <AddIcon className="h-4 w-4" />
                         </button>
                     </div>
                 </div>

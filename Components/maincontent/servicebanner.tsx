@@ -1,5 +1,6 @@
-import { FaShippingFast, FaBroom, FaShoppingCart, FaTruck } from 'react-icons/fa';
-
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import CleaningServicesIcon from '@mui/icons-material/CleaningServices';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 const ServiceBanner = () => {
   return (
     <div className="py-12 bg-gradient-to-b from-pink-100 to-white">
@@ -15,28 +16,28 @@ const ServiceBanner = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* Livraison & Reprise */}
           <div className="flex flex-col items-center text-gray-700">
-            <FaShippingFast className="text-4xl text-teal-500 mb-2" />
+            <LocalShippingIcon className="text-4xl text-teal-500 mb-2" />
             <p className="text-sm font-medium">Livraison & Reprise</p>
             <p className="text-xs text-gray-500">Selon vos besoins</p>
           </div>
 
           {/* Nettoyage */}
           <div className="flex flex-col items-center text-gray-700">
-            <FaBroom className="text-4xl text-teal-500 mb-2" />
+            <CleaningServicesIcon className="text-4xl text-teal-500 mb-2" />
             <p className="text-sm font-medium">Nettoyage</p>
             <p className="text-xs text-gray-500">Selon vos besoins</p>
           </div>
 
           {/* Commande Illimitée */}
           <div className="flex flex-col items-center text-gray-700">
-            <FaShoppingCart className="text-4xl text-teal-500 mb-2" />
+            <ShoppingCartIcon className="text-4xl text-teal-500 mb-2" />
             <p className="text-sm font-medium">Commande Illimitée</p>
             <p className="text-xs text-gray-500">Tout est possible</p>
           </div>
-
+          
           {/* Transport & Enlèvement */}
           <div className="flex flex-col items-center text-gray-700">
-            <FaTruck className="text-4xl text-teal-500 mb-2" />
+            <LocalShippingIcon  className="text-4xl text-teal-500 mb-2" />
             <p className="text-sm font-medium">Transport & Enlèvement</p>
             <p className="text-xs text-gray-500">On s'occupe de tout</p>
           </div>
