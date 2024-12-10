@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import Image from "next/image";
 import item from "./item1.png";
 import table from "./table.png";
-import AddIcon from '@mui/icons-material/Add';
-import FavoriteIcon from '@mui/icons-material/FavoriteBorder';
-import AutoFixNormalIcon from '@mui/icons-material/AutoFixNormal';
-import DoDisturbIcon from '@mui/icons-material/DoDisturb';
+import AddIcon from "@mui/icons-material/Add";
+import FavoriteIcon from "@mui/icons-material/FavoriteBorder";
+import AutoFixNormalIcon from "@mui/icons-material/AutoFixNormal";
+import DoDisturbIcon from "@mui/icons-material/DoDisturb";
 
 const Content = () => {
     const [quantity, setQuantity] = useState(1);
@@ -168,3 +168,4 @@ const Content = () => {
 };
 
 export default Content;
+
