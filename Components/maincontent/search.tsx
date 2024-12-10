@@ -27,13 +27,13 @@ export default function Search() {
 
 export function SearchSkeleton() {
   return (
-    <form className="flex-grow relative pl-0 block w-full md:hidden my-4">
-      <input
-        placeholder="Rechercher de produits..."
-        className="w-full rounded-lg border bg-white px-4 py-2 text-sm text-black placeholder:text-neutral-500 dark:border-neutral-800 dark:bg-transparent dark:text-white dark:placeholder:text-neutral-400"
-      />
-      <div className="absolute right-0 top-0 mr-3 flex h-full items-center">
-      <SearchIcon className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
+    <form className="sticky top-0 z-5 p-2 my-3">
+      <div className="relative w-full">
+        <input
+          placeholder="Rechercher des produits..."
+          className="w-full rounded-lg border bg-white px-4 py-2 text-sm text-black placeholder:text-neutral-500 dark:border-neutral-800 dark:bg-transparent dark:text-white dark:placeholder:text-neutral-400"
+        />
+        <SearchIcon className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
       </div>
     </form>
   );
