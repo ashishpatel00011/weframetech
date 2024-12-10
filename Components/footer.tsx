@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; // Install react-icons
+import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logo from "./logo.png"; // Adjust the path as per your folder structure
 import Image from 'next/image'; // Optimized image handling
 
